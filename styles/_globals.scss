@@ -69,7 +69,7 @@ input,
 textarea,
 select,
 svg * {
-  transition-duration: var(--transition-duration);
+  transition: all var(--transition-duration) ease;
 }
 
 a {
